@@ -59,4 +59,14 @@ Kérdőív kitöltése:
 
 ## 6. Követelménylista:
 
+K01 Regisztráció
+
+K02 Bejelentkezés
+
+K03 Kérdőív kiválasztása
+
+K04 Kérdőív kitöltése
+
+K05 Kérdőív létrehozása
+
 ## 7.Fogalomszótár:
