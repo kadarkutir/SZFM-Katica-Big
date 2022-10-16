@@ -65,6 +65,22 @@ A kitöltött kérdőívek válaszait eltárolni adatbázisba.
 
 ## 6. Igényelt üzleti folyamatok:
 
+
+Felhasználó regisztráció és bejelentkezés:
+    - felhasználó betud lépni fiókkal ha nincs tud regisztrálni.
+
+Kérdőívet tud kiválasztani:
+    - kitudja választani az általa kívánt kérdőívet a megadott oldalon.
+
+Kérdőív kitöltése:
+    - felhasználó kitud tölteni kérdőíveket.
+    - válaszok elmentve egy adatbázisba.
+
+Kérdőív létrehozása:
+    - felhasználó tud létrehozni különböző kérdőíveket.
+
+Minden számítógépen működik amin van web böngésző.
+
 ## 7. Használati esetek:
 
 ## 8. Képernyő tervek:
