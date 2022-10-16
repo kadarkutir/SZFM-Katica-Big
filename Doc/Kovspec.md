@@ -10,6 +10,16 @@ Egyszerűen lehet kitölteni különböző kérdőíveket amiket a felhasználó
 
 ## 2. Vágyálom rendszer leírása: 
 
+    - Felhasználó tudjon regisztrálni és bejelentkezni.
+
+    - Korábban kitöltött kérdőívek megtekintése.
+
+    - A felhasználó tudjon kérdőívet kitölteni.
+
+    - A válaszokat elmenteni késöbbi kiértékelés érdekében.
+
+    - A felhasználó tudjon kérdőívet létrehozni.
+
 ## 3. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása:
 
 ## 4. Jelenlegi üzleti folyamatok modellje:
