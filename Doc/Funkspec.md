@@ -88,6 +88,8 @@ Minden számítógépen működik amin van web böngésző.
 
 ## 7. Használati esetek:
 
+A felhaszáló betud lépni az oldalra a saját fiókjába és létretud hozni vagy kitud tölteni kérdőíveket.
+
 ## 8. Képernyő tervek:
 
 ## 9. Fogalomtár:
