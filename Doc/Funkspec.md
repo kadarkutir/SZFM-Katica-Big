@@ -32,6 +32,26 @@ Egyszerűen lehet kitölteni különböző kérdőíveket amiket a felhasználó
 
 ## 4. Követelménylista:
 
+K01 Regisztráció
+
+	- Felhasználó tudjon regisztrálni az oldalra.
+
+K02 Bejelentkezés
+
+	- Felhasználó betudjon jelentkezni a fiókjába.
+
+K03 Kérdőív kiválasztása
+
+	- Felhasználó tudjon böngészni a kérdőívek közt.
+
+K04 Kérdőív kitöltése
+
+	- Felhasználó kitudja tölteni a kiválasztott kérdőívet.
+
+K05 Kérdőív létrehozása
+
+	- Felhasználó tudjon létrehozni kérdőívet.
+
 ## 5. Jelenlegi üzleti folyamatok:
 
 ## 6. Igényelt üzleti folyamatok:
