@@ -2,6 +2,12 @@
 
 ## 1. A rendszer céljai és nem céljai:
 
+Célja:
+
+Külöböző kérdőívek kitöltése és tárolása.
+
+Kérdőívek létrehozása.
+
 ## 2. Jelenlegi helyzet leírása:
 
 ## 3. Vágyálom rendszer leírása: 
