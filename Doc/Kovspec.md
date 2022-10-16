@@ -56,6 +56,12 @@ Kérdőív kitöltése:
     - felhasználó kitud tölteni kérdőíveket.
     - válaszok elmentve egy adatbázisba.
 
+Kérdőív létrehozása:
+
+    - felhasználó tud létrehozni különböző kérdőíveket.
+
+
+Minden számítógépen működik amin van web böngésző.
 
 ## 6. Követelménylista:
 
