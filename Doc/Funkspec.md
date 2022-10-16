@@ -57,9 +57,9 @@ K05 Kérdőív létrehozása
 A kérdőíveket mindenki kitudja tölteni és mindenki tud létrehozni kérdőíveket amit mások kitudnak tölteni.
 
 Különböző kérdőív kérdés típusok:
-    -felelet választós
+    - felelet választós
 
-    -kifejtős
+    - kifejtős
 
 A kitöltött kérdőívek válaszait eltárolni adatbázisba.
 
