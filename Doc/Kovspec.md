@@ -70,3 +70,11 @@ K04 Kérdőív kitöltése
 K05 Kérdőív létrehozása
 
 ## 7.Fogalomszótár:
+
+Webböngésző: 
+    A böngésző egy olyan program, amellyel a világhálón (Interneten) található oldalakat (webhelyeket, webszervereket) megnézegethetjük vagy letölthetjük saját számítógépünkre.
+    A böngésző programok képesek a különböző programozási nyelveken, vagy a Html-kódban megírt oldalakat képekkel, linkekkel, animációkkal, hangokkal együtt megjeleníteni.
+    Alkalmasak fájlok letöltésére (HTTP vagy FTP protokollal), teljes weboldalak, képek elmentésére.
+    Kiegészítésekkel (plugin) képesek kezelni különböző grafikai fejlesztőeszközökkel készített programokat (Flash, Java, stb.)
+    Manapság sokféle böngésző áll rendelkezősünkre. Használatuk egyszerű.
+    A böngészők többsége a HTML-oldalak megtekintésén kívül több szolgáltatást is tartalmaz.(Kedvencek, Előzmények, Frissítés, Leállítás)
