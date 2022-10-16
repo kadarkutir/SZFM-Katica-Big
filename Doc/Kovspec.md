@@ -78,3 +78,10 @@ Webböngésző:
     Kiegészítésekkel (plugin) képesek kezelni különböző grafikai fejlesztőeszközökkel készített programokat (Flash, Java, stb.)
     Manapság sokféle böngésző áll rendelkezősünkre. Használatuk egyszerű.
     A böngészők többsége a HTML-oldalak megtekintésén kívül több szolgáltatást is tartalmaz.(Kedvencek, Előzmények, Frissítés, Leállítás)
+
+platformfüggetlen:
+
+ - A platformfüggetlen olyan szoftverekre vonatkozik, amelyek a hardveres és szoftveres konstrukciótól függetlenül működnek, és így hordozhatóak különféle generációs számítógépek és operációs rendszerek között.
+
+ A hordozhatóságot elsősorban a nyílt forráskódú alkalmazások fejlesztői tartják szem előtt, mivel számukra fontos az, hogy az elkészült program mindenki számára hozzáférhető legyen.
+
