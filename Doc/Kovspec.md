@@ -44,12 +44,15 @@ A kitöltött kérdőívek válaszait eltárolni adatbázisba.
 
 
 Felhasználó regisztráció és bejelentkezés:
+
     - felhasználó betud lépni fiókkal ha nincs tud regisztrálni.
 
 Kérdőívet tud kiválasztani:
+
     - kitudja választani az általa kívánt kérdőívet a megadott oldalon.
 
 Kérdőív kitöltése:
+
     - felhasználó kitud tölteni kérdőíveket.
     - válaszok elmentve egy adatbázisba.
 
