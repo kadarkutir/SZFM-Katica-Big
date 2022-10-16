@@ -92,4 +92,8 @@ A felhaszáló betud lépni az oldalra a saját fiókjába és létretud hozni v
 
 ## 8. Képernyő tervek:
 
+![](kepernyoterv1.png)
+
+![](kepernyoterv2.png)
+
 ## 9. Fogalomtár:
