@@ -1,0 +1,1 @@
+# SZFM-Katica-Big
