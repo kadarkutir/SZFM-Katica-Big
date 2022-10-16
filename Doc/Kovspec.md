@@ -22,6 +22,12 @@ Egyszerűen lehet kitölteni különböző kérdőíveket amiket a felhasználó
 
 ## 3. A rendszerre vonatkozó pályázat, törvények, rendeletek, szabványok és ajánlások felsorolása:
 
+- python
+- javascript
+- html
+- css 
+- sql
+
 ## 4. Jelenlegi üzleti folyamatok modellje:
 
 ## 5. Igényelt üzleti folyamatok modellje:
