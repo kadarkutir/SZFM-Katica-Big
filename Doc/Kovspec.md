@@ -30,6 +30,14 @@ Egyszerűen lehet kitölteni különböző kérdőíveket amiket a felhasználó
 
 ## 4. Jelenlegi üzleti folyamatok modellje:
 
+A kérdőíveket mindenki kitudja tölteni és mindenki tud létrehozni kérdőíveket amit mások kitudnak tölteni.
+
+Különböző kérdőív kérdés típusok:
+    -felelet választós
+
+    -kifejtős
+A kitöltött kérdőívek válaszait eltárolni adatbázisba.
+
 ## 5. Igényelt üzleti folyamatok modellje:
 
 ## 6. Követelménylista:
