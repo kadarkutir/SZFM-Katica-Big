@@ -92,7 +92,11 @@ A felhaszáló betud lépni az oldalra a saját fiókjába és létretud hozni v
 
 ## 8. Képernyő tervek:
 
+Regisztrációs felület:
+
 ![](kepernyoterv1.png)
+
+Bejelentkezési felület:
 
 ![](kepernyoterv2.png)
 
