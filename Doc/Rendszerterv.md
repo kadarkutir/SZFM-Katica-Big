@@ -26,6 +26,8 @@ Frontend munkák:
 
 ## 3. Üzleti folymatok modellje:
 
+![](uzletifolyamatokmodellje.png)
+
 ## 4. Követelmények:
 
 ## 5. Funkcionális terv:
