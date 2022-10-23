@@ -31,7 +31,25 @@ Frontend munkák:
 ## 4. Követelmények:
 
 ## 5. Funkcionális terv:
+A rendszert használó különböző felhasználók:
 
+    - Rendszergazda
+
+    - Felhasználó
+
+Rendszergazda:
+
+    - Teljes hozzáférés a rendszerhez
+
+Felhasználó:
+
+    - Képes regisztrálni
+
+    - Ha van fiókja betud lépni az oldalra
+
+    - Képes kérdőíveket kitölteni:
+
+        - kérdőív válaszok mentése
 ## 6. Fizikai könyezetek:
 
 ## 7. Architekturális terv:
