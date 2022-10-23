@@ -74,4 +74,12 @@ Maga a kérdőív egy webszerveren lesz elérhető, így a kliens oldalon mindö
 
 ## 12. Karbantartási terv:
 
+Az alkalmazás ilyen esetekben igényel karbantartást:
+
+    - Felhasználó által jelentett hiba esetén
+
+    - További funkciók hozzáadása esetén
+
+    - Böngészővel való kompatibilitás esetén
+
 ## 13. Fogalomtár:
