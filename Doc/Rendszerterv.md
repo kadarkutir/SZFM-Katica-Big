@@ -84,6 +84,30 @@ Felhasználó:
         - kérdőív válaszok mentése
 ## 6. Fizikai könyezetek:
 
+Az alkalmazás a könnyen hozzáférhetőség érdekében webre készül.
+
+Az alkalmazás használ adatbázist is.
+
+Fejlesztői környezetek:
+
+    - Notepad++
+
+    - Visual studio code
+
+    - Pycharm
+
+Tesztelési környezet:
+
+    - Google Chrome
+
+    - Microsoft Edge
+
+    - Safari
+
+    - Opera
+
+    - Mozilla Firefox
+
 ## 7. Architekturális terv:
 
 ## 8. Adatbázisterv:
