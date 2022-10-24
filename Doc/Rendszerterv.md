@@ -2,6 +2,18 @@
 
 ## 1. A rendszer céljai:
 
+Céljai:
+
+    - A rendszer célja adat gyüjtés a felhasználó által létrehozott kérdőívre.
+
+    - Használható több platformon is:
+
+        - Asztali számítógépről
+
+        - Laptopról
+
+        - Okostelefonról
+
 ## 2. Projektterv:
 
 A projekt egy web alkalmazás lesz ami adatbázist használ az adatok tárolására.
