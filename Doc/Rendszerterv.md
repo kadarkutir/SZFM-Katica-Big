@@ -211,3 +211,18 @@ Az alkalmazás ilyen esetekben igényel karbantartást:
     - Böngészővel való kompatibilitás esetén
 
 ## 13. Fogalomtár:
+
+1. Reszponzív felület - Mobilon, Tableten, PC-n igazodik a képernyőhöz a felület mérete, azaz több eszközön is probléma nélkül üzemelhet.”
+2. Webszerver - egy kiszolgáló, mely elérhetővé teszi a helyileg (esetleg más kiszolgálón) tárolt weblapokat a HTTP protokollon keresztül.
+3. HTML - angolul: HyperText Markup Language=hiperszöveges jelölőnyelv, egy leíró nyelv, melyet weboldalak készítéséhez fejlesztettek ki, és mára már internetes szabvánnyá vált a W3C (World Wide Web Consortium) támogatásával.
+4. CSS - Cascading Style Sheets, magyarul: lépcsőzetes stíluslapok, a számítástechnikában egy stílusleíró nyelv, mely a HTML vagy XHTML típusú strukturált dokumentumok megjelenését írja le.
+5. JavaScript - programozási nyelv egy objektumorientált, prototípus-alapú szkriptnyelv, amelyet weboldalakon elterjedten használnak.
+6. PHP - egy általános szerveroldali szkriptnyelv dinamikus weblapok készítésére.
+7. PNG - Portable Network Graphics képek tárolására, veszteségmentes tömörítésére alkalmas fájlformátum.
+8. JPEG - Joint Photographic Experts Group képek tárolására alkalmas fájlformátum.
+9. HTTPS - HyperText Transfer Protocol Safe egy URI-séma, amely biztonságos http kapcsolatot jelöl.
+10. Kliens - olyan számítógép vagy azon futó program, amelyik hozzáfér egy (távoli) szolgáltatáshoz, amelyet egy számítógép hálózathoz tartozó másik számítógép (a szerver) nyújt.
+11. Adatbázis - Az adatbázis azonos minőségű (jellemzőjű), többnyire strukturált adatok összessége, amelyet egy azok tárolására, lekérdezésére és szerkesztésére alkalmas szoftvereszköz kezel.
+12. Sütik - A HTTP-süti (általában egyszerűen süti, illetve angolul cookie) egy információcsomag, amelyet a szerver küld a webböngészőnek, majd a böngésző visszaküld a szervernek minden, a szerver felé irányított kérés alkalmával.
+13. Keretrendszer - A számítógép-programozásban a szoftverkörnyezet egy absztrakció, ami a szoftver által nyújtott általános funkcionalitást képes szelektíven megváltoztatni a felhasználói kód alapján, így alkalmazásspecifikus szoftvert biztosítanak.
+
