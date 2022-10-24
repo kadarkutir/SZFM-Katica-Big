@@ -42,6 +42,26 @@ Frontend munkák:
 
 ## 4. Követelmények:
 
+K01 Regisztráció
+
+    - Felhasználó tudjon regisztrálni az oldalra.
+
+K02 Bejelentkezés
+
+    - Felhasználó betudjon jelentkezni a fiókjába.
+
+K03 Kérdőív kiválasztása
+
+    - Felhasználó tudjon böngészni a kérdőívek közt.
+
+K04 Kérdőív kitöltése
+
+    - Felhasználó kitudja tölteni a kiválasztott kérdőívet.
+
+K05 Kérdőív létrehozása
+
+    - Felhasználó tudjon létrehozni kérdőívet.
+
 ## 5. Funkcionális terv:
 A rendszert használó különböző felhasználók:
 
