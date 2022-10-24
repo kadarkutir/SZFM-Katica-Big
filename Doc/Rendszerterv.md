@@ -134,6 +134,26 @@ A Frontend részhez szükséges:
 
 ## 8. Adatbázisterv:
 
+8. Adatbázisterv
+
+Táblák:
+
+    - Felhasználók:
+
+        - Felhasználó belépési adatait tárolja
+
+    - Kérdőívek:
+
+        - A felhasználók által létrehozott kérdőíveket tárolja
+
+    - Kérdőív kérdések:
+
+        - Egy adott kérdőívnek a kérdéseit tárolja
+
+    - Válaszok:
+
+        - Egy adott kérdőívhez a felhasználó által adott választ tárolja
+
 ## 9. Implementációs terv:
 
 ## 10. Tesztterv:
