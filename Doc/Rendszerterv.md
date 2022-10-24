@@ -155,6 +155,8 @@ Táblák:
         - Egy adott kérdőívhez a felhasználó által adott választ tárolja
        
        
+    
+    
     ![](adatbazis.png)
 
 ## 9. Implementációs terv:
