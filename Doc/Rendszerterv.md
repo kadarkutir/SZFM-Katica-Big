@@ -110,6 +110,28 @@ Tesztelési környezet:
 
 ## 7. Architekturális terv:
 
+Az alkalmazás a böngészőben fog megjelleni ezért Frontend és Backendre bontjuk a fejlesztést.
+
+A Backend fogja az adatbázist kezelni és a webszerver futását.
+
+A Frontend fogja a felhasználóknak is értelmes olvasható formátumban megjeleníteni.
+
+A Backend részhez szükséges:
+
+    - Python
+
+    - Adatbáziskezelő rendszer
+
+A Frontend részhez szükséges:
+
+    - HTML
+
+    - CSS
+
+    - JavaScript
+
+![](architekruralisterv.png)
+
 ## 8. Adatbázisterv:
 
 ## 9. Implementációs terv:
