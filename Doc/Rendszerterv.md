@@ -168,6 +168,26 @@ Az oldal formázásához css-et használunk.
 
 ## 10. Tesztterv:
 
+Alfa teszt: A tesztet a fejlesztők végzik.
+
+A teszt elsődleges célja, hogy az eddig meglévő funkciók megfelelően működjenek az összes operációs rendszeren. A tesztek sikeresnek könyvelhetőek el, hogyha az összes operációs rendszeren megfelelően működött a program.
+
+Beta teszt: A tesztet az alkalmazottak végzik.
+
+Tesztelendő böngészők:
+
+    - Google Chrome
+
+    - Microsoft Edge
+
+    - Safari
+
+    - Opera
+
+    - Mozilla Firefox
+
+A tesztelés alatt a tesztelő felhasználók visszajelzéseket küldhetnek a fejlesztőknek, probléma/hiba felmerülése esetén. Ha hiba lép fel, a fejlesztők kijavítják a lehető leghamarabb.
+
 ## 11. Telepítési terv:
 
 A kérdőív egy webes alkalmazásként kerül megalkotásra így nem szükséges telepíteni semmilyen alkalmazást.
