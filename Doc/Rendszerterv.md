@@ -155,11 +155,16 @@ Táblák:
         - Egy adott kérdőívhez a felhasználó által adott választ tárolja
        
        
-    
-    
-    ![](adatbazis.png)
 
 ## 9. Implementációs terv:
+
+A webszever egy python flask app-al fog futni.
+
+A python részen elérjük az adatbázist majd a python felületet mint api-ként használjuk.
+
+A python api segítségével javascript-el megjelenítjük a kérdőíveket.
+
+Az oldal formázásához css-et használunk.
 
 ## 10. Tesztterv:
 
