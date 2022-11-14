@@ -20,3 +20,19 @@ create table if not exists questions (
     question10 text not NULL,
     createdAt datetime NOT NULL
 );
+
+CREATE table if not EXISTS answers (
+    title text not null,
+    answeredBy text not NULL,
+    answer1 text not NULL,
+    answer2 text not NULL,
+    answer3 text not NULL,
+    answer4 text not NULL,
+    answer5 text not NULL,
+    answer6 text not NULL,
+    answer7 text not NULL,
+    answer8 text not NULL,
+    answer9 text not NULL,
+    answer10 text not NULL,
+    answeredAt datetime not NULL
+);
