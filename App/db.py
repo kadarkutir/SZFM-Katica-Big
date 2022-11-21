@@ -105,3 +105,31 @@ class dbConnection():
             return False
         else:
             return True
+
+        #Library functions
+    def get_all_answers_by_user(self,con:sqlite3.Connection,user:str):
+        cur = con.cursor()
+
+        answer = cur.execute("""
+        SELECT title,answeredBy,answeredAt FROM answers WHERE answeredBy = ?
+        """,(user,)).fetchall()
+
+        answers = []
+        for q in answer:
+            answers.append(list(q))
+
+        for ans in answers:
+            creator = cur.execute("""
+            SELECT createdBy from questions WHERE title = ?
+            """,(ans[0],)).fetchone()
+            ans[1] = creator[0]
+
+        for q in answers:
+            q[2] = datetime.datetime.strptime(q[2],"%Y-%m-%d %H:%M:%S.%f")
+
+        for q in answers:
+            q[2] = datetime.datetime.strftime(q[2],"%Y/%m/%d %H:%M:%S")
+
+
+
+        return answers
