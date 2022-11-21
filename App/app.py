@@ -93,6 +93,13 @@ def login_post():
         flash("User not found \n Check your username and password")
         return redirect("/login")
 
+@app.route("/get_user_data")
+def get_user_data():
+    username = session.get('username')
+
+    user = db_con.get_user_data_by_username(con,username)
+
+    return flask.jsonify(user)
 
 if __name__ == "__main__":
     app.run(debug=True,host="localhost",port=5000)
