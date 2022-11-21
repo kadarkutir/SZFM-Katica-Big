@@ -173,3 +173,24 @@ class dbConnection():
             q[1] = datetime.datetime.strftime(q[1],"%Y/%m/%d %H:%M:%S")
 
         return answers
+
+    def get_all_answers_on_questionnare(self,con:sqlite3.Connection,title:str):
+        cur = con.cursor()
+
+        answer = cur.execute("""
+        SELECT title,answeredBy,answeredAt FROM answers WHERE title = ?
+        """,(title,)).fetchall()
+
+        answers = []
+
+        for ans in answer:
+            answers.append(list(ans))
+
+        for q in answers:
+            q[2] = datetime.datetime.strptime(q[2],"%Y-%m-%d %H:%M:%S.%f")
+
+        for q in answers:
+            q[2] = datetime.datetime.strftime(q[2],"%Y/%m/%d %H:%M:%S")
+
+
+        return answers
