@@ -217,5 +217,26 @@ def get_answers_by_user_and_title_my_questionnare(title,user):
     
     return flask.jsonify(result)
 
+#Questionnare creator function
+@app.route("/add_question", methods=["POST"])
+def add_question():
+    title = request.form.get("title")
+    user = session.get("username")
+
+    question1 = request.form.get("question1")
+    question2 = request.form.get("question2")
+    question3 = request.form.get("question3")
+    question4 = request.form.get("question4")
+    question5 = request.form.get("question5")
+    question6 = request.form.get("question6")
+    question7 = request.form.get("question7")
+    question8 = request.form.get("question8")
+    question9 = request.form.get("question9")
+    question10 = request.form.get("question10")
+
+    db_con.add_questions_to_questions(con,title,user,question1,question2,question3,question4,question5,question6,question7,question8,question9,question10)
+
+    return redirect("/index")
+
 if __name__ == "__main__":
     app.run(debug=True,host="localhost",port=5000)
