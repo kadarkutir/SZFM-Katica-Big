@@ -343,3 +343,47 @@ table.result_table_design tr:nth-child(odd){
 
 /* Result table design end */
 
+/* My questionnares design */
+
+table.my_questions_table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 1000px;
+    border-collapse: collapse;
+}
+
+table.my_questions_table td{
+    text-align: center;
+    border: #111 solid 1px;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+}
+
+table.my_questions_table td:nth-child(1){
+    text-align: left;
+}
+
+table.my_questions_table th{
+    background-color: #111;
+    color:white;
+    padding: 10px;
+}
+
+table.my_questions_table th:first-child{
+    border-top-left-radius: 30px;
+}
+
+table.my_questions_table th:last-child{
+    border-top-right-radius: 30px;
+}
+
+table.my_questions_table tr:hover{
+    background-color: grey;
+}
+
+/* My questionnares design end */
+
+
