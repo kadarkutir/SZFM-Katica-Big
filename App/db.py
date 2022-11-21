@@ -24,3 +24,13 @@ class dbConnection():
             cur.executescript(sql.read())
             con.commit()
             print("Script executed")
+
+     #User related functions
+    def add_user_to_db(self,con:sqlite3.Connection,username:str,password:str,email:str) -> None:
+        cur = con.cursor()
+
+        cur.execute("""
+        INSERT INTO users (username,password,email) VALUES (?,?,?)
+        """,(username,password,email))
+        con.commit()
+        print("User added to db")
