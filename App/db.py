@@ -105,3 +105,14 @@ class dbConnection():
             return False
         else:
             return True
+
+    def add_answers_to_answers(self,con:sqlite3.Connection,title:str,answeredBy:str,answer1:str,answer2:str,answer3:str,answer4:str,answer5:str,answer6:str,answer7:str,answer8:str,answer9:str,answer10:str):
+        cur = con.cursor()
+
+        answeredAt = datetime.datetime.now()
+
+        cur.execute("""
+        INSERT INTO answers (title,answeredBy,answer1,answer2,answer3,answer4,answer5,answer6,answer7,answer8,answer9,answer10,answeredAt) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)
+        """,(title,answeredBy,answer1,answer2,answer3,answer4,answer5,answer6,answer7,answer8,answer9,answer10,answeredAt))
+        con.commit()
+        print("Answers saved to db")
