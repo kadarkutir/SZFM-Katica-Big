@@ -173,7 +173,27 @@ def get_answers_by_user_and_title(title):
     
     return flask.jsonify(result)
 
+#User's own questionnares functions
+@app.route("/get_own_questionnaries_by_user")
+def get_own_questionnaries_by_user():
+    user = session.get('username')
 
+    questions = db_con.get_own_questionnaries(con,user)
+
+    if questions == None:
+        return flask.jsonify("None")
+
+    return flask.jsonify(questions)
+
+@app.route("/get_all_answers_on_questionnare/<title>")
+def get_all_answers_on_questionnare(title):
+    
+    answers = db_con.get_all_answers_on_questionnare(con,title)
+
+    if answers == None:
+        return flask.jsonify("None")
+
+    return flask.jsonify(answers)
 
 if __name__ == "__main__":
     app.run(debug=True,host="localhost",port=5000)
