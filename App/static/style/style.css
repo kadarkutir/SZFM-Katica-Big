@@ -410,3 +410,20 @@ button.back_button{
 
 /* Back button design end */
 
+/* Questionnare add button design */
+
+button.question_plus_button{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+    background-color: none;
+    background-image: url(/static/img/add.png);
+    background-size: cover;
+}
+
+/* Questionnare add button design end */
+
+
