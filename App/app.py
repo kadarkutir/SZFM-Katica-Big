@@ -101,5 +101,12 @@ def get_user_data():
 
     return flask.jsonify(user)
 
+@app.route("/get_all_questionaries")
+def get_all_questionaries():
+    questionaries = db_con.get_all_questionaries_with_title_createdBy_createdAt(con)
+
+    return flask.jsonify(questionaries)
+
+
 if __name__ == "__main__":
     app.run(debug=True,host="localhost",port=5000)
