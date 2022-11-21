@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Signup</title>
+            <link rel="stylesheet" href="{{ url_for('static',filename='style/style.css') }}" />
+            <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+        </head>
+    
+        <body>
+            <div class="content_body">
+                <h3>Sign Up</h3>
+                    {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                        <div class="danger_signup">
+                            <p>{{ messages[0] }}</p>
+                        </div>
+                    {% endif %}
+                    {% endwith %}
+                    <form method="POST" action="/signup_post">
+                        <input  type="email" name="email" placeholder="Email" autofocus="" required>
+                        <input  type="text" name="username" placeholder="Username" autofocus="" required>
+                        <input  type="password" name="password" placeholder="Password" required>
+                        <input  type="password" name="password_again" placeholder="Enter your password again" required><br>
+                        <button id="submit">Sign Up</button>
+                        <p>You already have an account</p>
+                        <p>Login in here: <a href="{{ url_for('login') }}">Login</a></p>
+                    </form>
+            </div>
+        </body>
+    </html>
