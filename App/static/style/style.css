@@ -395,3 +395,18 @@ p.my_q_answer_by{
 
 /* Answered by q list end */
 
+/* Back button design */
+
+button.back_button{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
+    background-image: url(/static/img/back-button.png);
+    background-size: cover;
+    border: none;
+}
+
+/* Back button design end */
+
