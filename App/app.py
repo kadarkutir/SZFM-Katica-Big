@@ -142,7 +142,15 @@ def fill_post(title):
 
     return redirect("/index")
 
+#Library functions to show answers
+@app.route("/get_all_answer_by_user")
+def get_all_answer_by_user():
+    answers = db_con.get_all_answers_by_user(con,session.get('username'))
 
+    if answers == None:
+        return flask.jsonify("None")
+
+    return flask.jsonify(answers)
 
 
 if __name__ == "__main__":
