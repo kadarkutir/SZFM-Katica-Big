@@ -154,3 +154,32 @@ div.profile{
 }
 
 /* Porifle and welcome page design end */
+
+/* Questionnaire form design */
+div.quest_box{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: #111 solid 1px;
+    border-radius: 30px;
+    width: 1000px;
+    height: 100%;
+}
+
+
+form.quest_form{
+    display: inline-block;
+    text-align: left;
+}
+
+form.quest_form p{
+    font-size: 20px;
+}
+
+form.quest_form input{
+    width: 800px;
+    height: 50px;
+    font-size: 20px;
+}
+/* Questionnaire form design end */
+
