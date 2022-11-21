@@ -124,6 +124,25 @@ def check_user_filled(title):
     else:
         return flask.jsonify('False')
 
+@app.route("/fill_post/<title>", methods=["POST"])
+def fill_post(title):
+    answer1 = request.form.get("answer1")
+    answer2 = request.form.get("answer2")
+    answer3 = request.form.get("answer3")
+    answer4 = request.form.get("answer4")
+    answer5 = request.form.get("answer5")
+    answer6 = request.form.get("answer6")
+    answer7 = request.form.get("answer7")
+    answer8 = request.form.get("answer8")
+    answer9 = request.form.get("answer9")
+    answer10 = request.form.get("answer10")
+
+    user = session.get("username")
+    db_con.add_answers_to_answers(con,title,user,answer1,answer2,answer3,answer4,answer5,answer6,answer7,answer8,answer9,answer10)
+
+    return redirect("/index")
+
+
 
 
 if __name__ == "__main__":
