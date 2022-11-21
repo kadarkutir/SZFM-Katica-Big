@@ -50,5 +50,49 @@ def index():
     print(session['username'])
     return render_template('index.html')
 
+@app.route("/signup_post",methods=["POST"])
+def signup_post():
+    email = request.form.get('email')
+    username = request.form.get('username')
+    password = request.form.get('password')
+    password_again = request.form.get('password_again')
+
+    user = db_con.get_user_exist_by_username(con,username)
+
+    if user:
+        flash("""User already exists.""")
+        return redirect("/signup")
+
+    if password != password_again:
+        flash("The passwords dont match.")
+        return redirect("/signup")
+
+    hashed_password=generate_password_hash(password, method='sha256')
+
+    db_con.add_user_to_db(con,username,hashed_password,email)
+    con.commit()
+
+    return redirect("/signup_post_screen")
+
+@app.route("/login_post",methods=["POST"])
+def login_post():
+    username = request.form.get('username')
+    password = request.form.get('password')
+
+    session["username"] = username
+
+    user = db_con.get_user_login_data_by_username(con,username)
+
+    if user == None:
+        flash("User not found \n Check your username and password")
+        return redirect("/login")
+
+    if check_password_hash(user[1],password):
+        return redirect("/index")
+    else:
+        flash("User not found \n Check your username and password")
+        return redirect("/login")
+
+
 if __name__ == "__main__":
     app.run(debug=True,host="localhost",port=5000)
