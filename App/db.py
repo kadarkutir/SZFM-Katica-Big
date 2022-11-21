@@ -194,3 +194,14 @@ class dbConnection():
 
 
         return answers
+
+    def add_questions_to_questions(self,con:sqlite3.Connection,title:str,createdBy:str,question1:str,question2:str,question3:str,question4:str,question5:str,question6:str,question7:str,question8:str,question9:str,question10:str) -> None:
+        cur = con.cursor()
+
+        createdAt = datetime.datetime.now()
+
+        cur.execute("""
+        INSERT INTO questions (title,createdBy,question1,question2,question3,question4,question5,question6,question7,question8,question9,question10,createdAt) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)
+        """,(title,createdBy,question1,question2,question3,question4,question5,question6,question7,question8,question9,question10,createdAt))
+        con.commit()
+        print("Questionaire added to db")
