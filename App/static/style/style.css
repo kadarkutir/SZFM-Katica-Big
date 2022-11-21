@@ -77,3 +77,56 @@ div.danger_signup{
 }
 
 /* Login and Signup page design end */
+
+.q_div{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
+
+/* Table design */
+table.general_table_design{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 1000px;
+    border-collapse: collapse;
+    border-radius: 30px;
+}
+
+table.general_table_design td{
+    border: #111 solid 1px;
+    height: 50px;
+    width: 330px;
+    cursor: pointer;
+}
+
+table.general_table_design tbody > tr:hover{
+    background-color: grey;
+}
+
+table.general_table_design th{
+    background-color: #111;
+    color: white;
+    height: 50px;
+}
+
+table.general_table_design th:first-child{
+    border-top-left-radius: 30px;
+}
+
+table.general_table_design th:last-child{
+    border-top-right-radius: 30px;
+}
+
+table.general_table_design td:nth-child(2){
+    text-align: center;
+}
+
+table.general_table_design td:nth-child(3){
+    text-align: center;
+}
+
+
+/* Table design end */
