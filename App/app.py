@@ -152,6 +152,28 @@ def get_all_answer_by_user():
 
     return flask.jsonify(answers)
 
+@app.route("/get_answers_by_user_and_title/<title>")
+def get_answers_by_user_and_title(title):
+
+    questions = db_con.get_questions_for_questionnare_by_title(con,title)
+    answers = db_con.get_answers_from_user_by_username_and_title(con,session.get('username'),title)
+
+    result = [0 for i in range(0,(len(questions)+len(answers))-1)]
+    result[0] = questions[0]
+
+    dif = 0
+    for i in range(1,len(result),2):
+        result[i] = questions[i-dif]
+        dif += 1
+
+    dif = 1
+    for j in range(2,len(result),2):
+        result[j] = answers[j-dif]
+        dif+=1
+    
+    return flask.jsonify(result)
+
+
 
 if __name__ == "__main__":
     app.run(debug=True,host="localhost",port=5000)
