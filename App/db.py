@@ -34,3 +34,33 @@ class dbConnection():
         """,(username,password,email))
         con.commit()
         print("User added to db")
+
+    def get_user_exist_by_username(self,con:sqlite3.Connection,username:str) -> bool:
+        cur = con.cursor()
+
+        user = cur.execute("""
+        SELECT username FROM users WHERE username = ?
+        """,(username,)).fetchone()
+
+        if user == None:
+            return False
+        else:
+            return True
+
+    def get_user_login_data_by_username(self,con:sqlite3.Connection,username:str) -> tuple:
+        cur = con.cursor()
+
+        user = cur.execute("""
+        SELECT username,password FROM users WHERE username = ?
+        """,(username,)).fetchone()
+
+        return user
+
+    def get_user_data_by_username(self,con:sqlite3.Connection,username:str) -> tuple:
+        cur = con.cursor()
+
+        user = cur.execute("""
+        SELECT username,email FROM users WHERE username = ?
+        """,(username,)).fetchone()
+
+        return list(user)
