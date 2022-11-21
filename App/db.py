@@ -153,3 +153,23 @@ class dbConnection():
         """,(title,user)).fetchone()
 
         return list(answers)
+
+    #My questionnares functions
+    def get_own_questionnaries(self,con:sqlite3.Connection,user:str):
+        cur = con.cursor()
+
+        titles = cur.execute("""
+        SELECT title,createdAt FROM questions WHERE createdBy = ?
+        """,(user,)).fetchall()
+
+        answers = []
+        for t in titles:
+            answers.append(list(t))
+
+        for q in answers:
+            q[1] = datetime.datetime.strptime(q[1],"%Y-%m-%d %H:%M:%S.%f")
+
+        for q in answers:
+            q[1] = datetime.datetime.strftime(q[1],"%Y/%m/%d %H:%M:%S")
+
+        return answers
