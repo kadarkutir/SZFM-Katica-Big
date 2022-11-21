@@ -144,3 +144,12 @@ class dbConnection():
 
 
         return answers
+
+    def get_answers_from_user_by_username_and_title(self,con:sqlite3.Connection,user:str,title:str) -> list:
+        cur = con.cursor()
+
+        answers = cur.execute("""
+        SELECT title,answer1,answer2,answer3,answer4,answer5,answer6,answer7,answer8,answer9,answer10 FROM answers WHERE title = ? and answeredBy = ?
+        """,(title,user)).fetchone()
+
+        return list(answers)
