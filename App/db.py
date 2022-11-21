@@ -64,3 +64,23 @@ class dbConnection():
         """,(username,)).fetchone()
 
         return list(user)
+
+    def get_all_questionaries_with_title_createdBy_createdAt(self,con:sqlite3.Connection) -> list:
+        cur = con.cursor()
+
+        questionaire = cur.execute("""
+        SELECT title,createdBy,createdAt from questions
+        """).fetchall()
+
+        questionaries = []
+        for q in questionaire:
+            questionaries.append(list(q))
+
+        for q in questionaries:
+            q[2] = datetime.datetime.strptime(q[2],"%Y-%m-%d %H:%M:%S.%f")
+
+        for q in questionaries:
+            q[2] = datetime.datetime.strftime(q[2],"%Y/%m/%d %H:%M:%S")
+
+
+        return questionaries
