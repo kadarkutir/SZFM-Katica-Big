@@ -386,4 +386,12 @@ table.my_questions_table tr:hover{
 
 /* My questionnares design end */
 
+/* Answered by q list */
+
+p.my_q_answer_by{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Answered by q list end */
 
