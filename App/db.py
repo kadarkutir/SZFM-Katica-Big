@@ -84,3 +84,24 @@ class dbConnection():
 
 
         return questionaries
+    
+    def get_questions_for_questionnare_by_title(self,con:sqlite3.Connection,title:str) -> list:
+        cur = con.cursor()
+
+        questions = cur.execute("""
+        SELECT title,question1,question2,question3,question4,question5,question6,question7,question8,question9,question10 FROM questions WHERE title = ?
+        """,(title,)).fetchone()
+
+        return list(questions)
+
+    def check_user_answered_questionnaire(self,con:sqlite3.Connection,title:str,user:str) -> bool:
+        cur = con.cursor()
+
+        answered =  cur.execute("""
+        SELECT answeredAt FROM answers WHERE answeredBy = ? and title = ?
+        """,(user,title)).fetchone()
+
+        if answered == None:
+            return False
+        else:
+            return True
