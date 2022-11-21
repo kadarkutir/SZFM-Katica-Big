@@ -108,5 +108,23 @@ def get_all_questionaries():
     return flask.jsonify(questionaries)
 
 
+@app.route("/get_questions_for_questionnaire/<title>")
+def get_questions_for_questionnaire(title):
+    questions = db_con.get_questions_for_questionnare_by_title(con,title)
+
+    return flask.jsonify(questions)
+
+#Filling questionnaire routes
+@app.route("/check_user_filled/<title>")
+def check_user_filled(title):
+    filled = db_con.check_user_answered_questionnaire(con,title,session.get('username'))
+
+    if filled:
+        return flask.jsonify('True')
+    else:
+        return flask.jsonify('False')
+
+
+
 if __name__ == "__main__":
     app.run(debug=True,host="localhost",port=5000)
