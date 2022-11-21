@@ -20,6 +20,35 @@ db_con.run_sql_script(con,"db/initialize.sql")
 
 
 
+#Base temlate rendering
+@app.route("/")
+def start():
+    return redirect("/signup")
+
+@app.route("/login",methods=["GET","POST"])
+def login():
+    return render_template('login.html')
+
+@app.route("/signup",methods=["GET","POST"])
+def signup():
+    return render_template('signup.html')
+
+@app.route("/signup_post_screen")
+def signup_post_screen():
+    return render_template('signup_redirect.html')
+
+@app.route("/logout")
+def logout():
+    session["username"] = None
+    return redirect("/login")
+
+@app.route("/index")
+def index():
+    if not session.get('username'):
+        return redirect("/login")
+
+    print(session['username'])
+    return render_template('index.html')
 
 if __name__ == "__main__":
     app.run(debug=True,host="localhost",port=5000)
