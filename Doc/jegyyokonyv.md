@@ -1,4 +1,4 @@
-#Jegyzokonyv
+# Jegyzokonyv
 
 - OK:Hibamentesen rendesen működik
 - HIBA: Helyesen működik és hibát kell dobjon az adott esetre
