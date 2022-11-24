@@ -9,3 +9,4 @@
 | 1 | Felhasználó létrehozása | K. Robert | OK |
 | 2 | Felhasználó létrehozása létező felhasználónév | K. Robert | HIBA |
 | 3 | Felhasználó létrehozása nem egyező jelszavak | K. Robert | HIBA |
+| 4 | Belépés létező felhasználóval | K. Robert | OK |
