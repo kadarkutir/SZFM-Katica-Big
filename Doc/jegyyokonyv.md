@@ -25,3 +25,4 @@
 | 17 | Saját kérdőívek adott kérdőív válaszok megtekintése összes | K. Robert | OK |
 | 18 | Saját kérdőív adott kérdőív adott felhasználó válasza | K. Robert | OK |
 | 19 | Saját kérdőív létrehozása | K. Robert | OK |
+| 20 | Saját kérdőív mentése | K. Robert | OK |
