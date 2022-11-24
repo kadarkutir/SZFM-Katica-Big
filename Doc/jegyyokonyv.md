@@ -15,3 +15,4 @@
 | 7 | Profil menü helyes adatok | K. Robert | OK |
 | 8 | Kilépés belépési oldalra irányítás | K. Robert | OK |
 | 9 | Kilépés session clear | K. Robert | OK |
+| 10 | Összes kérdőív helyes betöltése | K. Robert | OK |
