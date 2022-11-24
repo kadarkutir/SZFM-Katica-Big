@@ -22,3 +22,4 @@
 | 14 | Saját válaszok összes betöltése | K. Robert | OK |
 | 15 | Saját válaszok egy megtekintése | K. Robert | OK |
 | 16 | Saját kérdőívek összes megtekintése | K. Robert | OK |
+| 17 | Saját kérdőívek adott kérdőív válaszok megtekintése összes | K. Robert | OK |
