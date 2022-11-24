@@ -12,3 +12,4 @@
 | 4 | Belépés létező felhasználóval | K. Robert | OK |
 | 5 | Belépés nem létező felhasználóval | K. Robert | HIBA |
 | 6 | Belépés rossz jelszóval | K. Robert | HIBA |
+| 7 | Profil menü helyes adatok | K. Robert | OK |
