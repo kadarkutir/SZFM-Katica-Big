@@ -14,3 +14,4 @@
 | 6 | Belépés rossz jelszóval | K. Robert | HIBA |
 | 7 | Profil menü helyes adatok | K. Robert | OK |
 | 8 | Kilépés belépési oldalra irányítás | K. Robert | OK |
+| 9 | Kilépés session clear | K. Robert | OK |
