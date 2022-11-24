@@ -1,2 +1,2 @@
-| Sorszám | Leírás | Érték | Tesztelő | Eredmény |
-| ------- | ------- | ----- | -------- | -------- |
+| Sorszám | Leírás | Tesztelő | Eredmény |
+| ------- | ------ | -------- | -------- |
