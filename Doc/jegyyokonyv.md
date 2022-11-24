@@ -19,3 +19,4 @@
 | 11 | Kérdőív kitöltés kérdések betöltése | K. Robert | OK |
 | 12 | Kérdőív kitöltése kérdés kihagyása | K. Robert | HIBA |
 | 13 | Kérdőív kitöltése válaszok mentése | K. Robert | OK |
+| 14 | Saját válaszok összes betöltése | K. Robert | OK |
