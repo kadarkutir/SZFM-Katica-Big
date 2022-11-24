@@ -11,3 +11,4 @@
 | 3 | Felhasználó létrehozása nem egyező jelszavak | K. Robert | HIBA |
 | 4 | Belépés létező felhasználóval | K. Robert | OK |
 | 5 | Belépés nem létező felhasználóval | K. Robert | HIBA |
+| 6 | Belépés rossz jelszóval | K. Robert | HIBA |
