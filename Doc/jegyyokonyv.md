@@ -7,3 +7,4 @@
 | Sorszám | Leírás | Tesztelő | Eredmény |
 | ------- | ------ | -------- | -------- |
 | 1 | Felhasználó létrehozása | K. Robert | OK |
+| 2 | Felhasználó létrehozása létező felhasználónév | K. Robert | HIBA |
