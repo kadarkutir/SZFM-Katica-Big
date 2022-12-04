@@ -48,3 +48,4 @@
 | 40 | Saját kérdőív mentése | D. Benjamin | OK |
 | 41 | Felhasználó létrehozása | T. David | OK |
 | 42 | Felhasználó létrehozása létező felhasználónév | T. David | HIBA |
+| 43 | Felhasználó létrehozása nem egyező jelszavak | T. David | HIBA |
