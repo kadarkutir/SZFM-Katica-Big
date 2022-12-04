@@ -35,3 +35,7 @@
 | 27 | Profil menü helyes adatok | D. Benjamin | OK |
 | 28 | Kilépés belépési oldalra irányítás | D. Benjamin | OK |
 | 29 | Kilépés session clear | D. Benjamin | OK |
+| 30 | Összes kérdőív helyes betöltése | D. Benjamin | OK |
+| 31 | Kérdőív kitöltés kérdések betöltése | D. Benjamin | OK |
+| 32 | Kérdőív kitöltése kérdés kihagyása | D. Benjamin | HIBA |
+| 33 | Kérdőív kitöltése válaszok mentése | D. Benjamin | OK |
