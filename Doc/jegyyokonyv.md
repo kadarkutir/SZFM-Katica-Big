@@ -32,3 +32,6 @@
 | 24 | Belépés létező felhasználóval | D. Benjamin | OK |
 | 25 | Belépés nem létező felhasználóval | D. Benjamin | HIBA |
 | 26 | Belépés rossz jelszóval | D. Benjamin | HIBA |
+| 27 | Profil menü helyes adatok | D. Benjamin | OK |
+| 28 | Kilépés belépési oldalra irányítás | D. Benjamin | OK |
+| 29 | Kilépés session clear | D. Benjamin | OK |
