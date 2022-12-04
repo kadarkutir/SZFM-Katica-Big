@@ -29,3 +29,6 @@
 | 21 | Felhasználó létrehozása | D. Benjamin | OK |
 | 22 | Felhasználó létrehozása létező felhasználónév | D. Benjamin | HIBA |
 | 23 | Felhasználó létrehozása nem egyező jelszavak | D. Benjamin | HIBA |
+| 24 | Belépés létező felhasználóval | D. Benjamin | OK |
+| 25 | Belépés nem létező felhasználóval | D. Benjamin | HIBA |
+| 26 | Belépés rossz jelszóval | D. Benjamin | HIBA |
