@@ -47,3 +47,4 @@
 | 39 | Saját kérdőív létrehozása | D. Benjamin | OK |
 | 40 | Saját kérdőív mentése | D. Benjamin | OK |
 | 41 | Felhasználó létrehozása | T. David | OK |
+| 42 | Felhasználó létrehozása létező felhasználónév | T. David | HIBA |
