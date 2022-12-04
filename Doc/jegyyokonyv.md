@@ -46,3 +46,4 @@
 | 38 | Saját kérdőív adott kérdőív adott felhasználó válasza | D. Benjamin | OK |
 | 39 | Saját kérdőív létrehozása | D. Benjamin | OK |
 | 40 | Saját kérdőív mentése | D. Benjamin | OK |
+| 41 | Felhasználó létrehozása | T. David | OK |
