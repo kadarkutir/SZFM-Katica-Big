@@ -61,3 +61,4 @@
 | 53 | Kérdőív kitöltése válaszok mentése | T. David | OK |
 | 54 | Saját válaszok összes betöltése | T. David | OK |
 | 55 | Saját válaszok egy megtekintése | T. David | OK |
+| 56 | Saját kérdőívek összes megtekintése | T. David | OK |
