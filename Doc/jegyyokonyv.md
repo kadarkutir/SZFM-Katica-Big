@@ -53,3 +53,4 @@
 | 45 | Belépés nem létező felhasználóval | T. David | HIBA |
 | 46 | Belépés rossz jelszóval | T. David | HIBA |
 | 47 | Profil menü helyes adatok | T. David | OK |
+| 48 | Kilépés belépési oldalra irányítás | T. David | OK |
