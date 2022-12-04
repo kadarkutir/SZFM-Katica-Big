@@ -62,3 +62,4 @@
 | 54 | Saját válaszok összes betöltése | T. David | OK |
 | 55 | Saját válaszok egy megtekintése | T. David | OK |
 | 56 | Saját kérdőívek összes megtekintése | T. David | OK |
+| 57 | Saját kérdőívek adott kérdőív válaszok megtekintése összes | T. David | OK |
