@@ -60,3 +60,4 @@
 | 52 | Kérdőív kitöltése kérdés kihagyása | T. David | HIBA |
 | 53 | Kérdőív kitöltése válaszok mentése | T. David | OK |
 | 54 | Saját válaszok összes betöltése | T. David | OK |
+| 55 | Saját válaszok egy megtekintése | T. David | OK |
