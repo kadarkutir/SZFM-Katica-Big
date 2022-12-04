@@ -39,3 +39,10 @@
 | 31 | Kérdőív kitöltés kérdések betöltése | D. Benjamin | OK |
 | 32 | Kérdőív kitöltése kérdés kihagyása | D. Benjamin | HIBA |
 | 33 | Kérdőív kitöltése válaszok mentése | D. Benjamin | OK |
+| 34 | Saját válaszok összes betöltése | D. Benjamin | OK |
+| 35 | Saját válaszok egy megtekintése | D. Benjamin | OK |
+| 36 | Saját kérdőívek összes megtekintése | D. Benjamin | OK |
+| 37 | Saját kérdőívek adott kérdőív válaszok megtekintése összes | D. Benjamin | OK |
+| 38 | Saját kérdőív adott kérdőív adott felhasználó válasza | D. Benjamin | OK |
+| 39 | Saját kérdőív létrehozása | D. Benjamin | OK |
+| 40 | Saját kérdőív mentése | D. Benjamin | OK |
