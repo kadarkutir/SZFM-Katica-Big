@@ -56,3 +56,4 @@
 | 48 | Kilépés belépési oldalra irányítás | T. David | OK |
 | 49 | Kilépés session clear | T. David | OK |
 | 50 | Összes kérdőív helyes betöltése | T. David | OK |
+| 51 | Kérdőív kitöltés kérdések betöltése | T. David | OK |
