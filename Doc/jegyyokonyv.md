@@ -54,3 +54,4 @@
 | 46 | Belépés rossz jelszóval | T. David | HIBA |
 | 47 | Profil menü helyes adatok | T. David | OK |
 | 48 | Kilépés belépési oldalra irányítás | T. David | OK |
+| 49 | Kilépés session clear | T. David | OK |
