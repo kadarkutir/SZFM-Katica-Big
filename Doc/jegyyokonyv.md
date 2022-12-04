@@ -49,3 +49,4 @@
 | 41 | Felhasználó létrehozása | T. David | OK |
 | 42 | Felhasználó létrehozása létező felhasználónév | T. David | HIBA |
 | 43 | Felhasználó létrehozása nem egyező jelszavak | T. David | HIBA |
+| 44 | Belépés létező felhasználóval | T. David | OK |
