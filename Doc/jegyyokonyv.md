@@ -26,3 +26,6 @@
 | 18 | Saját kérdőív adott kérdőív adott felhasználó válasza | K. Robert | OK |
 | 19 | Saját kérdőív létrehozása | K. Robert | OK |
 | 20 | Saját kérdőív mentése | K. Robert | OK |
+| 21 | Felhasználó létrehozása | D. Benjamin | OK |
+| 22 | Felhasználó létrehozása létező felhasználónév | D. Benjamin | HIBA |
+| 23 | Felhasználó létrehozása nem egyező jelszavak | D. Benjamin | HIBA |
