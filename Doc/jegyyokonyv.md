@@ -65,3 +65,4 @@
 | 57 | Saját kérdőívek adott kérdőív válaszok megtekintése összes | T. David | OK |
 | 58 | Saját kérdőív adott kérdőív adott felhasználó válasza | T. David | OK |
 | 59 | Saját kérdőív létrehozása | T. David | OK |
+| 60 | Saját kérdőív mentése | T. David | OK |
